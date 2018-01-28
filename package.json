@@ -1,0 +1,37 @@
+{
+  "name": "hexo-renderer-edgejs",
+  "description": "Edge.js(http://edge.adonisjs.com) template engine for hexo",
+  "author": {
+    "email": "tiniwz@gmail.com",
+    "name": "skt-t1-byungi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skt-t1-byungi/hexo-renderer-edgejs.git"
+  },
+  "keywords": [
+    "hexo",
+    "hexo-renderer",
+    "edge",
+    "edgejs"
+  ],
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev" : "ava -w",
+    "test": "ava"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "edge.js": "^1.1.4"
+  }
+}
